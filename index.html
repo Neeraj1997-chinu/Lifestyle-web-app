@@ -4,10 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lifestyle</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header class="header"></header>
+    <div id="side-menu" class="side-menu">
+      <a id="close" onclick="close_nav()" href="javascript:void(0)">&times</a>
+      <div class="nav-menu">
+        <a href="#">men</a>
+        <a href="#">women</a>
+        <a href="#">kids</a>
+        <a href="#">men</a>
+      </div>
+      <div class="contact">
+        <a href="">customer care</a>
+        <a href="">track order</a>
+        <a href="">how to return </a>
+        <a href="">how to redeem</a>
+      </div>
+    </div>
+    <header id="app_header" class="app_header">
+      <span style="font-size: 30px; cursor: pointer" onclick="open_nav()"
+        >&#9776;</span
+      >
+      <div class="logo-container inline-block">
+        <div class="logo">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/3081/3081559.svg"
+            alt="logo"
+          />
+        </div>
+      </div>
+      <input type="search" name="search" id="" />
+      <input type="submit" value="search" />
+    </header>
+    <header id="header" class="header">
+      <div class="logo-container">
+        <div class="logo">
+          <img
+            src="https://www.flaticon.com/svg/static/icons/svg/3081/3081559.svg"
+            alt="logo"
+          />
+        </div>
+      </div>
+      <div class="search">
+        <form action="#" method="GET">
+          <input type="search" name="search" id="" placeholder="search" />
+          <input type="submit" value="search" />
+        </form>
+      </div>
+      <div class="user-container">
+        <div class="user">
+          <img src="" alt="user_pic" />
+          <span>user name</span>
+        </div>
+      </div>
+      <div class="cart">
+        <img
+          onclick="open_nav()"
+          src="https://www.flaticon.com/svg/static/icons/svg/879/879815.svg"
+          alt="cart"
+        />
+      </div>
+    </header>
     <main class="main"></main>
     <footer class="footer"></footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+#close {
+  font-size: 40px;
+  font-family: fantasy;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  /* left: 0px; */
+  right: 10px;
+}
+.side-menu {
+  height: 100%;
+  background-color: white;
+  width: 0px;
+  position: fixed;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.nav-menu {
+  /* position: relative; */
+  background-color: #111111;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.nav-menu a {
+  color: white;
+  display: block;
+  margin: 8px 8px 8px 30px;
+  font-size: 35px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.contact {
+  background-color: white;
+  margin-top: 50px;
+}
+.contact a {
+  color: #2c4152;
+  display: block;
+  margin: 10px 10px 10px 30px;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.inline-block {
+  display: inline-block;
+}
+
+/* header section */
+.logo img {
+  height: 40px;
+}
+
+.header {
+  background-color: #ff6700;
+  color: white;
+  display: none;
+}
+.main {
+  height: 65vh;
+  width: 100vw;
+}
